@@ -17,10 +17,8 @@ cotacao[2]="bovespa"
 if ! which zabbix_sender > /dev/null; then
    echo -e "[ERROR] zabbix_sender não está instalado. \n"
 else
-
         for i in {0..2}
                 do
 $(which zabbix_sender) -z $ZABBIXSERVER -p $ZABBIXPORT -s$ZABBIXHOST -k"$(echo ${cotacao[$i]})" -o "$(GET $JSONCOTACAO | $(which jq) '.'${cotacao[$i]}'.cotacao')" > /dev/null
         done
-
 fi
