@@ -11,6 +11,6 @@ This is a collection of custom scripts developed over time to monitor the essent
 
 All updates / forks / suggestions are more than welcome!
 
-*  E-mail; contact [@] juanfontes.com.br
+*  E-mail; eu [@] juanfontes.com.br
 *  Twitter; @JuanFontes
-*  Linkedin; http://linkedin.com/pub/juan-fontes/9a/6a6/a88/
+*  Linkedin; http://br.linkedin.com/in/juanfontes
