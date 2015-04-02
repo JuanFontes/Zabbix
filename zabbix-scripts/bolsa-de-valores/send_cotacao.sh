@@ -3,7 +3,7 @@
 #@description script de envio dos valores de cotacao do dolar, euro e indicio ibovespa para o zabbix-server
 
 #variaveis servidor zabbix
-ZABBIXSERVER="10.0.0.151"
+ZABBIXSERVER="127.0.0.1"
 ZABBIXPORT="10051"
 ZABBIXHOST="cotacao"
 JSONCOTACAO="http://developers.agenciaideias.com.br/cotacoes/json"
