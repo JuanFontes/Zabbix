@@ -15,7 +15,7 @@ cotacao[2]="bovespa"
 
 #verifica se zabbix_sender esta instalado, se sim, realiza o envio dos valores para o servidor
 if ! which zabbix_sender > /dev/null; then
-   echo -e "[ERROR] zabbix_sender não instalado. \n"
+   echo -e "[ERROR] zabbix_sender não está instalado. \n"
 else
 
         for i in {0..2}
