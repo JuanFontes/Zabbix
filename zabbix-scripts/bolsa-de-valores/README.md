@@ -6,7 +6,7 @@ O script consiste em pegar a cotação do dolar através do site http://develope
 Instruções
 ----------
 
-Baixar o pacote compilado dependendo da sua versão do sistema, dar permissão de execução e mover para o diretório /usr/bin
+Baixar o jq para que seja possível [i]parsear [/i]o Json. Utilize o pacote compilado dependendo da sua versão do sistema.
 
 - $ wget http://stedolan.github.io/jq/download/linux32/jq (32-bit system)
 - $ wget http://stedolan.github.io/jq/download/linux64/jq (64-bit system)
