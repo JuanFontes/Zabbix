@@ -1,6 +1,6 @@
 #Acompanhamento de cotação de moedas no Zabbix
 
-> **Note:**
+> ** Note: **
 O script consiste em pegar a cotação do dolar através do site http://developers.agenciaideias.com.br/cotacoes e mandar para o zabbix utilizando o zabbix_sender, parseando o json com o comando jq.
 
 Instruções
